@@ -1,3 +1,22 @@
+[project]
+name = "nonebot-plugin-og"
+version = "0.1.0"
+description = "检测链接并发送网站简介及预览图"
+authors = [
+    {name = "mute.", email = "mute231010@gmail.com"},
+]
+dependencies = ["httpx", "nonebot2", "pyquery", "nonebot-adapter-onebot", "nonebot-plugin-guild-patch"]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+[project.urls]
+Homepage = "https://github.com/mute23-code/nonebot_plugin_og"
+
 [tool.poetry]
 name = "nonebot-plugin-og"
 version = "0.1.0"
