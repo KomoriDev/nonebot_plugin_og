@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "nonebot-plugin-og"
+version = "0.1.0"
+description = "检测链接并发送网站简介及预览图"
+authors = ["mute. <mute231010@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nonebot_plugin_og"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyquery = "^2.0.0"
+nonebot-plugin-guild-patch = "^0.2.3"
+httpx = "^0.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
