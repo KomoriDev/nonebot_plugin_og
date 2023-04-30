@@ -57,7 +57,7 @@ _✨ 检测链接并生成预览图 ✨_
 
 ## 开源许可证
 
-使用 [MIT](#) 许可证发布。
+使用 [MIT](./LICENSE) 许可证发布。
 
 ```
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
