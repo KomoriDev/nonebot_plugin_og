@@ -1,8 +1,6 @@
-from typing import Union
 from nonebot import on_message
 from nonebot.plugin import PluginMetadata
 from nonebot.adapters.onebot.v11 import Bot, MessageEvent
-from nonebot_plugin_guild_patch import Bot, GuildMessageEvent
 from .utils import get_og_info
 
 __plugin_meta__ = PluginMetadata(
@@ -19,7 +17,7 @@ __plugin_meta__ = PluginMetadata(
 get_og = on_message(priority=99)
 
 @get_og.handle()
-async def get_og(bot: Bot, event: Union[MessageEvent, GuildMessageEvent]):
+async def get_og(bot: Bot, event: MessageEvent):
     og_info = await get_og_info(event.message)
     if og_info:
         title = og_info.get('title', '未知标题')

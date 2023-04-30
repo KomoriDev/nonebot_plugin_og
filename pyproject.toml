@@ -5,7 +5,7 @@ description = "检测链接并发送网站简介及预览图"
 authors = [
     {name = "mute.", email = "mute231010@gmail.com"},
 ]
-dependencies = ["httpx", "nonebot2", "pyquery", "nonebot-adapter-onebot", "nonebot-plugin-guild-patch"]
+dependencies = ["httpx", "nonebot2", "pyquery", "nonebot-adapter-onebot"]
 requires-python = ">=3.10"
 readme = "README.md"
 license = {text = "MIT"}
@@ -29,7 +29,6 @@ packages = [{include = "nonebot_plugin_og"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pyquery = "^2.0.0"
-nonebot-plugin-guild-patch = "^0.2.3"
 httpx = "^0.24.0"
 
 
