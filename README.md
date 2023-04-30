@@ -5,6 +5,15 @@
 
 _✨ 检测链接并生成预览图 ✨_  
 
+<a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/mute23-code/nonebot_plugin_og" alt="license">
+</a>
+<a href="https://pypi.python.org/pypi/nonebot_plugin_og">
+    <img src="https://img.shields.io/pypi/v/nonebot_plugin_og.svg" alt="pypi">
+</a>
+<img src="https://img.shields.io/badge/python-3.8+-blue.svg" alt="python">
+
+
 </div>
 
 ## 📖 介绍
