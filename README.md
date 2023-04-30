@@ -39,6 +39,13 @@ _✨ 检测链接并生成预览图 ✨_
 
 直接发送任意链接，只要是支持 Open Graph 协议的网站，此插件都会自动发送预览图。
 
+## 鸣谢
+
+* [`nonebot/noenbot2`](https://github.com/nonebot/nonebot2)：跨平台Python异步机器人框架
+* [`Mrs4s/go-cqhttp`](https://github.com/Mrs4s/go-cqhttp)：cqhttp的golang实现，轻量、原生跨平台.
+* [`koishijs/koishi-plugin-og`](https://github.com/koishijs/koishi-plugin-og)：本项目直接参考 ~~（直接开抄~~
+
+
 ## 开源许可证
 
 使用 [MIT](#) 许可证发布。
