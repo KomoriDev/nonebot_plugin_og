@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-og"
-version = "0.1.0"
+version = "0.2.0"
 description = "检测链接并发送网站简介及预览图"
 authors = [
     {name = "mute.", email = "mute231010@gmail.com"},
@@ -19,7 +19,7 @@ Homepage = "https://github.com/mute23-code/nonebot_plugin_og"
 
 [tool.poetry]
 name = "nonebot-plugin-og"
-version = "0.1.0"
+version = "0.2.0"
 description = "检测链接并发送网站简介及预览图"
 authors = ["mute. <mute231010@gmail.com>"]
 license = "MIT"

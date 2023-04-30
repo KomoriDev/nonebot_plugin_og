@@ -9,7 +9,7 @@ __plugin_meta__ = PluginMetadata(
     usage="无",
     extra={
         "Author": "mute. <mute231010@gmail.com>",
-        "version": "v0.1.0"
+        "version": "v0.2.0"
     },
 )
 
