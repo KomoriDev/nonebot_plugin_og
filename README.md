@@ -16,9 +16,9 @@ _✨ 检测链接并生成预览图 ✨_
 
 </div>
 
-    ## 📖 介绍
+## 📖 介绍
 
-    检测链接并生成预览图，基于 [Open Graph](https://ogp.me/) 协议
+检测链接并生成预览图，基于 [Open Graph](https://ogp.me/) 协议
 
 ## 💿 安装
 
@@ -31,10 +31,18 @@ _✨ 检测链接并生成预览图 ✨_
 </details>
 
 <details>
-<summary>使用pip安装</summary>
+<summary>使用 pip 安装</summary>
 在 nonebot2 项目的插件目录下, 打开命令行, 输入以下指令即可安装
 
-    pip iqnstall nonebot-plugin-og
+    pip install nonebot-plugin-og
+
+</details>
+
+<details>
+<summary>使用 Poetry 安装</summary>
+在 nonebot2 项目的插件目录下, 打开命令行, 输入以下指令即可安装
+
+    poetry add nonebot-plugin-og
 
 </details>
 

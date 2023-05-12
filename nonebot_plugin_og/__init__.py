@@ -1,6 +1,6 @@
 from nonebot import on_message
 from nonebot.plugin import PluginMetadata
-from nonebot.adapters.onebot.v11 import Bot, MessageEvent
+from nonebot.adapters.onebot.v11 import Bot, MessageEvent, MessageSegment
 from .utils import get_og_info
 
 __plugin_meta__ = PluginMetadata(
@@ -24,7 +24,7 @@ async def get_og(bot: Bot, event: MessageEvent):
         desc = og_info.get('description', '未提供描述信息')
         img = og_info.get('image', None)
         if img:
-            msg = f'{img}\n{title}\n{desc}'
+            msg = MessageSegment.image(img) + f'\n{title}\n{desc}'
         else:
             msg = f'{title}\n{desc}'
         await bot.send(event, message=msg)
